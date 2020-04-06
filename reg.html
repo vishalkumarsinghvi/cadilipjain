@@ -1,0 +1,79 @@
+<html>
+<head>
+  <title>Test JavaScript Form Validation</title>
+    <script type="text/javascript" src="validate.js" ></script>
+  
+  <style>
+
+.red {
+   color: red;
+}
+ 
+input.error { 
+   border: 1px red;
+   padding: 2px;
+}
+ 
+table {
+   border: 0;
+}
+ 
+td {
+   margin: 0;
+   padding: 3px 10px 3px 3px;
+}
+
+    </style>
+
+
+</head>
+ 
+<body>
+  
+ 
+  <form id="Form1" method="get" action="">
+    <table>
+    <tr>
+      <td>Name<span class="red">*</span></td>
+      <td><input type="text" id="name" name="name"/></td>
+      <td id="nameError" class="red">&nbsp;</td></tr>
+    <tr>
+      <td>Address</td>
+      <td><input type="text" id="address" name="address" /></td>
+      <td id="addressError" class="red">&nbsp;</td></tr>
+    <tr>
+      <td>Zip Code<span class="red">*</span></td>
+      <td><input type="text" id="zipcode" name="zipcode" /></td>
+      <td id="zipcodeError" class="red">&nbsp;</td></tr>
+    
+    <tr>
+      <td>Gender<span class="red">*</span></td>
+      <td><input type="radio" name="gender" value="m" />Male
+          <input type="radio" name="gender" value="f" />Female</td>
+      <td id="genderError" class="red">&nbsp;</td></tr>
+    
+    <tr>
+      <td>Phone<span class="red">*</span></td>
+      <td><input type="text" id="phone" name="phone" /></td>
+      <td id="phoneError" class="red">&nbsp;</td></tr>
+    <tr>
+      <td>Email<span class="red">*</span></td>
+      <td><input type="text" id="email" name="email" /></td>
+      <td id="emailError" class="red">&nbsp;</td></tr>
+    <tr>
+      <td>password (6-8 characters)<span class="red">*</span></td>
+      <td><input type="password" id="password" name="password" /></td>
+      <td id="passwordError" class="red">&nbsp;</td></tr>
+    <tr>
+      <td>Verify password<span class="red">*</span></td>
+      <td><input type="password" id="pwVerified" name="pwVerified" /></td>
+      <td id="pwVerifiedError" class="red">&nbsp;</td></tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><input type="submit" value="SEND" id="submit"/>&nbsp;
+          
+      <td>&nbsp;</td></tr>
+    </table>
+  </form>
+</body>
+</html>

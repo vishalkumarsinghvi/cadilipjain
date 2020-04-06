@@ -1,0 +1,12 @@
+{
+  "name": "www.cadilipjain.com",
+  "version": "1.0.0",
+  "description": "ca",
+  "main": "validate.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC"
+}
