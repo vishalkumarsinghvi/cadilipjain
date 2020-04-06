@@ -1,12 +1,23 @@
 {
-  "name": "www.cadilipjain.com",
+  "name": "website",
   "version": "1.0.0",
-  "description": "ca",
+  "description": "",
   "main": "validate.js",
   "scripts": {
-    "dev":  "parcel index.html",
+    "dev": "parcel index.html",
     "build": "parcel build index.html"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalkumarsinghvi/cadilipjain.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishalkumarsinghvi/cadilipjain/issues"
+  },
+  "homepage": "https://github.com/vishalkumarsinghvi/cadilipjain#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
 }

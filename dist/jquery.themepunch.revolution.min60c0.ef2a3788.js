@@ -4899,7 +4899,7 @@ function revslider_showDoubleJqueryError(e) {
     return e.$ ? (m.selector = e.$, e.$(t)) : s ? s.getElementById("#" === t.charAt(0) ? t.substr(1) : t) : t;
   };
 })(window || {});
-},{}],"node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -4927,7 +4927,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64903" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49567" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -5103,5 +5103,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["node_modules/parcel/src/builtins/hmr-runtime.js","wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min60c0.js"], null)
+},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js","wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min60c0.js"], null)
 //# sourceMappingURL=/jquery.themepunch.revolution.min60c0.ef2a3788.js.map
